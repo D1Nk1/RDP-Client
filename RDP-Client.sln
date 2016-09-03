@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDP-Client", "RDP-Client\RDP-Client.csproj", "{F80AA214-D431-425F-9040-46EE0429CEB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80AA214-D431-425F-9040-46EE0429CEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80AA214-D431-425F-9040-46EE0429CEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80AA214-D431-425F-9040-46EE0429CEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80AA214-D431-425F-9040-46EE0429CEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -32,7 +32,6 @@ namespace RDP_Client
             listen = new Thread(StartListening);
             getImage = new Thread(ReceiveImage);
 
-
             InitializeComponent();
         }
 
@@ -60,7 +59,7 @@ namespace RDP_Client
             while (TC.Connected)
             {
                 NS = TC.GetStream();
-                pictureBox1.Image =  (Image )BF.Deserialize(NS);
+                pictureBox1.Image = (Image)BF.Deserialize(NS);
             }
         }
 
